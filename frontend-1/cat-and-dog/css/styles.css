@@ -1,0 +1,14 @@
+#barra-superior {
+  background-color: black;
+  color: white;
+}
+
+#barra-inferior {
+  background-color: orange;
+}
+
+main {
+  align-items: center;
+  text-align: center;
+}
+
