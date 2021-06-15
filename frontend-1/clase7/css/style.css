@@ -1,0 +1,34 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header, footer {
+  align-items: center;
+  text-align: center;
+}
+
+h1, h2, footer {
+  background-color: #C4C4C4;
+  color: #005677;
+}
+
+dt {
+  font-weight: bold;
+}
+
+footer {
+  align-items: center;
+  background-color: #005677;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-align: center;
+}
+
+.image-footer {
+  padding-left: 15px;
+}
+
+section {
+  margin: auto;
+  max-width: 1000px;
+}
