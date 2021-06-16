@@ -36,13 +36,17 @@ h2 {
 }
 
 header, footer {
-  align-items: center;
   text-align: center;
 }
 
 section {
   margin: 0 auto;
   max-width: 1000px;
+}
+
+#image-header {
+  height: 300px;
+  width: 300px;
 }
 
 .image-footer {
