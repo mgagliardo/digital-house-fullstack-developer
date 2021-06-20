@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
+.banner {
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 343px;
+  color: #FFFF;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -16,7 +25,6 @@ dd {
   margin-left: 0px;
 }
 
-
 footer {
   background-color: #005677;
   color: #FFFFFF;
@@ -24,6 +32,10 @@ footer {
   font-size: 20px;
   max-width: 1000px;
   margin: 0 auto;
+}
+
+.formacion-experiencia {
+ padding-left: 130px; 
 }
 
 h1, h2 {
@@ -40,22 +52,8 @@ h2 {
   padding-left: 10px;
 }
 
-section.banner {
-  background-image: url(../img/banner.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 343px;
-  color: #FFFF;
-}
-
 header, footer {
   text-align: center;
-}
-
-section {
-  margin: 0 auto;
-  max-width: 1000px;
 }
 
 #image-header {
@@ -68,6 +66,7 @@ section {
   vertical-align: middle;
 }
 
-.formacion-experiencia {
- padding-left: 120px; 
+section {
+  margin: 0 auto;
+  max-width: 1000px;
 }

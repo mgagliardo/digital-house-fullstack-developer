@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
+#banner {
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 343px;
+  color: #FFFF;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -31,28 +40,19 @@ header, footer {
   text-align: center;
 }
 
-section {
-  margin: 0 auto;
-  max-width: 1000px;
-}
-
-section#banner {
-  background-image: url(../img/banner.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 343px;
-  color: #FFFF;
-}
-
 .image-footer {
   padding-left: 15px;
   vertical-align: middle;
 }
 
-img#personal {
+#personal {
   height: 250px;
   width: 250px;
   border-radius: 10%;
   margin-top: 12px;
+}
+
+section {
+  margin: 0 auto;
+  max-width: 1000px;
 }
