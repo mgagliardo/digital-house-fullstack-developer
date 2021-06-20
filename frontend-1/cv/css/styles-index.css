@@ -2,24 +2,29 @@
 
 #banner {
   background-image: url(../img/banner.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
-  height: 343px;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #FFFF;
+  height: 343px;
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.datos {
+  font: italic;
+  font-weight: bold;
+}
+
 footer {
   background-color: #005677;
   color: #FFFFFF;
-  line-height: 50px;
   font-size: 20px;
-  max-width: 1000px;
+  line-height: 50px;
   margin: 0 auto;
+  max-width: 1000px;
 }
 
 h1, h2 {
@@ -46,10 +51,10 @@ header, footer {
 }
 
 #personal {
-  height: 250px;
-  width: 250px;
   border-radius: 10%;
+  height: 250px;
   margin-top: 12px;
+  width: 250px;
 }
 
 section {
