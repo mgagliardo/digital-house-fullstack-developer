@@ -18,9 +18,8 @@ button.comederos {
 }
 
 footer {
-  background-color: black;
+  background-color: #F0A83E;
   color: #FFFF;
-  height: 50px;
   margin-top: 5px;
 }
 
@@ -41,4 +40,42 @@ section.banner {
   background-position: center;
   height: 750px;
   color: #FFFF;
-} 
+}
+
+section.datos-contacto {
+  background-color: #3C2313;
+  color: #FFFF;
+  text-align: left;
+}
+
+span.barra-inf-front {
+  color: #3C2313;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 23px;
+}
+
+span.barra-inf-catanddog {
+  color: #FFFF;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 23px;
+}
+
+span.datos-contacto-front {
+  color: #FFFF;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 23px;
+}
+
+span.datos-contacto-catanddog {
+  color: #F0A83E;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 23px;
+}
+
+span.datos-contacto-details {
+  color: #8A8787;
+}
