@@ -20,6 +20,10 @@ section.banner ~ section {
   margin: 50px auto
 }
 
+section.datos-contacto {
+  background-color: #3C2313;
+}
+
 h1 {
   font-style: normal;
   font-weight: bold;

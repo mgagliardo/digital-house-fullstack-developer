@@ -7,8 +7,75 @@
   background-color: orange;
 }
 
-main {
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+button.comederos {
+  color: #FFFF;
+  background-color: #F0A83E;
+  border: none;
+}
+
+footer {
+  background-color: #F0A83E;
+  color: #FFFF;
+  margin-top: 5px;
+}
+
+main, footer {
   align-items: center;
   text-align: center;
 }
 
+
+section.newsletter {
+  background-color: #F0A83E;
+  color: #FFFF;
+}
+
+section.banner {
+  background-image: url(../img/header.png);
+  background-size: cover;
+  background-position: center;
+  height: 750px;
+  color: #FFFF;
+}
+
+section.datos-contacto {
+  background-color: #3C2313;
+  color: #FFFF;
+  text-align: left;
+}
+
+span.barra-inf-front {
+  color: #3C2313;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 23px;
+}
+
+span.barra-inf-catanddog {
+  color: #FFFF;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 23px;
+}
+
+span.datos-contacto-front {
+  color: #FFFF;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 23px;
+}
+
+span.datos-contacto-catanddog {
+  color: #F0A83E;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 23px;
+}
+
+span.datos-contacto-details {
+  color: #8A8787;
+}
