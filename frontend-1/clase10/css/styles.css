@@ -1,0 +1,39 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+}
+
+h1 {
+  background-color: #00669F;
+  font-size: 40px;
+  height: 101px;
+  margin-top: 0;
+  padding: 20px;
+}
+
+#descuentos {
+  background-color: #1CD1B0;
+  font-size: 15px;
+  height: 38px;
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+img.heroes {
+  border-radius: 50%;
+}
+
+section.batman-left {
+  background-image: url(../img/background_batman.png);
+  background-repeat: no-repeat;
+}
+
+section.batman-right {
+  background-image: url(../img/background_batman.png);
+  background-repeat: no-repeat;
+}
+
+section.harley-queen {
+  background-image: url(../img/background_harley_queen.png);
+  background-repeat: no-repeat;
+}
