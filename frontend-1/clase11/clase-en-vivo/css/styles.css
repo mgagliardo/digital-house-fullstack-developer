@@ -28,7 +28,7 @@ nav {
 nav ul {
   list-style: none;
   display: flex;
-  flex-direction: row;
+  flex-direction:  ;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;

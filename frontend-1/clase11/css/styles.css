@@ -13,34 +13,43 @@ body {
 header, footer {
   background-color: #222222;
   height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 ul {
   color: #FFFF;
 }
 
-.menu {
-  flex-flow: row nowrap;
-  margin-right: 50px;
-  float: right;
-  height: 100%;
-  width: 350px;
-}
-
-.menu nav {
-  display: flex;
-  justify-content: space-between;
-  gap: 13px;
-}
-
-nav ul {
-  display: flex;
-  flex-flow: row wrap;
+header span {
   align-items: center;
-  flex-wrap: nowrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+footer span {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.menu-header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
   gap: 13px;
 }
 
+.menu-footer ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 13px;
+}
 
 section#delivery {
   background-image: url(../img/delivery.png);
@@ -52,14 +61,14 @@ span {
   font-size: 24px;
 }
 
-span#banner-pizza {
+.banner-pizza {
   color: #39B24A;
 }
 
-span#banner-and {
+.banner-and {
   color: #FFFF;
 }
 
-span#banner-front {
+.banner-front {
   color: red;
 }
