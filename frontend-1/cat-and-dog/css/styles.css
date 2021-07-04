@@ -1,3 +1,5 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 #barra-superior {
   background-color: black;
   color: white;
@@ -79,3 +81,11 @@ span.datos-contacto-catanddog {
 span.datos-contacto-details {
   color: #8A8787;
 }
+
+@media (max-width: 768px) {
+  #barra-superior {
+    display: none;
+  }
+}
+
+
