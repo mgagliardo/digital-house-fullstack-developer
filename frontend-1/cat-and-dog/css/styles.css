@@ -1,28 +1,68 @@
  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-#barra-superior {
-  background-color: black;
-  color: white;
-}
-
-#barra-inferior {
-  background-color: orange;
-}
-
-body {
+* {
   font-family: 'Roboto', sans-serif;
 }
 
-button.comederos {
-  color: #FFFF;
+#barra-superior {
+  background-color: #222222;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.25rem;
+}
+
+#barra-inferior {
+  background-color: #F0A83E;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.875rem;
+}
+
+button#comederos {
   background-color: #F0A83E;
   border: none;
 }
 
 footer {
-  background-color: #F0A83E;
-  color: #FFFF;
+  background-color: #222222;
   margin-top: 5px;
+}
+
+#grandes-ofertas-text {
+  padding-left: 90px;
+}
+
+#lista-idiomas-monedas {
+  display: flex;
+  gap: 12px;
+  padding-right: 52px;
+}
+
+#lista-barra-inf {
+  display: flex;
+  gap: 20px;
+  padding-right: 40px;
+}
+
+#frase-bienvenida {
+  position: absolute;
+  background-color: #FFFF;
+  border-radius: 5px;
+  height: 54px;
+  right: 0.75rem;
+  top: 9.75rem;
+  vertical-align: middle;
+  width: 365px;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+h1, #frase-comederos-descuento {
+  color: #3C2313;
 }
 
 main, footer {
@@ -30,24 +70,29 @@ main, footer {
   text-align: center;
 }
 
-
 section.newsletter {
   background-color: #F0A83E;
-  color: #FFFF;
 }
 
 section.banner {
+  align-items: flex-end;
   background-image: url(../img/header.png);
   background-size: cover;
   background-position: center;
+  display: flex;
+  flex-direction: column;
   height: 750px;
-  color: #FFFF;
 }
 
 section.datos-contacto {
   background-color: #3C2313;
-  color: #FFFF;
   text-align: left;
+}
+
+.productos-destacados {
+  display: flex;
+  flex-direction: ;
+  gap: 13px;
 }
 
 span.barra-inf-front {
@@ -57,35 +102,47 @@ span.barra-inf-front {
   line-height: 23px;
 }
 
-span.barra-inf-catanddog {
-  color: #FFFF;
+span.letras-white,
+span.datos-contacto-catanddog {
   font-size: 20px;
   font-weight: bold;
   line-height: 23px;
 }
 
-span.datos-contacto-front {
+#barra-superior,
+button#comederos,
+.fa-list,
+footer,
+section.datos-contacto,
+section.newsletter,
+span.letras-white {
   color: #FFFF;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 23px;
 }
 
 span.datos-contacto-catanddog {
   color: #F0A83E;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 23px;
 }
 
 span.datos-contacto-details {
   color: #8A8787;
 }
 
+ul {
+  list-style: none;
+}
+
 @media (max-width: 768px) {
   #barra-superior {
     display: none;
   }
+
+  #lista-barra-inf {
+    display: none;
+  }
 }
 
-
+@media (min-width: 769px) {
+  #icono-lista {
+    display: none;
+  }
+}

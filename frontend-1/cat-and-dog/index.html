@@ -6,40 +6,47 @@
   <title>Clase 5</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link href="css/styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
   <header>
     <section id="barra-superior">
-      <ul type="none">
-        <li>Grandes ofertas en comederos</li>
-        <ul type="none">
-          <li>Español</li>
-          <li>$ARG</li>
-        </ul>
-      </ul>
-    </section>
-    <section id="barra-inferior">
-      <img src="img/logo_cat.png"><span class="barra-inf-front">Front</span><span class="barra-inf-catanddog">Cat&Dog</span><img src="img/logo_dog.png">
+      <span id="grandes-ofertas-text">Grandes ofertas en comederos</span>
       <nav>
-        <ul type="none">  
-          <li><img src="img/pawprint2.png"><a href="">Categorias</a></li>
-          <li><img src="img/pawprint2.png"><a href="">Pets</a></li>
-          <li><img src="img/pawprint2.png"><a href="">Nosotros</a></li>
-          <li><img src="img/pawprint2.png"><a href="">Contactanos</a></li>
+        <ul id="lista-idiomas-monedas" type="none">
+          <li>Español<i class="fas fa-angle-down"></i></li>
+          <li>$ARG<i class="fas fa-angle-down"></i></li>
         </ul>
       </nav>
     </section>
+    <section id="barra-inferior">
+      <span class="logo-main">
+        <img src="img/logo_cat.png">
+        <span class="barra-inf-front">Front</span>
+        <span class="letras-white">Cat&Dog</span>
+        <img src="img/logo_dog.png">
+      </span>
+      <p id="icono-lista"><i class="fas fa-list"></i></p>
+      <ul id="lista-barra-inf">
+        <li><img src="img/pawprint2.png"><a href="">Categorias</a></li>
+        <li><img src="img/pawprint2.png"><a href="">Pets</a></li>
+        <li><img src="img/pawprint2.png"><a href="">Nosotros</a></li>
+        <li><img src="img/pawprint2.png"><a href="">Contactanos</a></li>
+      </ul>
+    </section>
   </header>
   <main>
-    <h1>¡Es un placer tenerte aquí!</h3>
     <section class="banner">
-      <p>¡Comederos en descuento</p>
-      <button class="comederos">COMEDEROS</button>
+      <span id="frase-bienvenida"><h1>¡Es un placer tenerte aquí!</h1></span>
+      <span id="frase-comederos-descuento">¡Comederos en descuento!</span>
+      <button id="comederos">COMEDEROS</button>
     </section>
     <section>
-        <img src="img/pawprint1.png" alt="imagen de pata">
+      <img src="img/pawprint1.png" alt="imagen de pata">
       <h2>Productos Destacados</h2>
-      <p><a href="">Comederos</a> <a href="">Accesorios</a> <a href="">Comida</a></p>
+      <p><span class="productos-destacados"><a href="">Comederos</a></span><span class="productos-destacados">-</span><span class="productos-destacados"><a href="">Accesorios</a></span><span class="productos-destacados">-</span><span class="productos-destacados"><a href="">Comida</a></span></p>
       <a href="accesorios.html#Churrasco"></a><img src="img/churrasquito.png" width="10%"></a>
       <p>Juguete churrasquito</p>
       <p>$150</p>
@@ -72,8 +79,12 @@
         <h3>Correo Electronico</h3>
         <span class="datos-contacto-details">Dirección de correo</span>
       </p>
-      <img src="img/logo_cat.png"><span class="datos-contacto-front">Front</span><span
-        class="datos-contacto-catanddog">Cat&Dog</span><img src="img/logo_dog.png">
+      <span class="logo-main">
+        <img src="img/logo_cat.png">
+        <span class="letras-white">Front</span>
+        <span class="datos-contacto-catanddog">Cat&Dog</span>
+        <img src="img/logo_dog.png">
+      </span>
       </section>
   </main>
   <footer>
